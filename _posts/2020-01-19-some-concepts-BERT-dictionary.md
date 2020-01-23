@@ -8,7 +8,7 @@ The topic of the day: **BERT (Bidirectional Encoder Representations from Transfo
 
 When Neural Network (what BERT is based on) learns a language/text, it needs a dictionary too. The difference is that human dictionary puts words together by some alphabetical orders, while NN dictionary puts the words has the similar meanings together. The longer distance between the two words, the more un-relatable the words are to each other. This kind of dictionary for NN, it is called **Word Embedding**.
 
-One might ask "alright it's cool that you put word with similar syntactic meanings together, but how do you find a word in this mass Word Embedding pool?" Yes, it still needs a way to find individual word. This is a Word Embedding look-up table, a data structure to give every word a unique ID.
+One might ask "alright it's cool that you put word with similar meanings together, but how do you easily find a word in a mass Word Embedding pool?" Yes, it needs a way to find individual word. This is a Word Embedding look-up table, a data structure to give every word a unique ID.
 
 BERT has about 30,000 tokens in its tokenizer class. Each token has 368 features, which means a vector 368 dimensions for representing a word. These are the basic information about BERT, and not some magic number that the universal tells us 368 dimensions how we should represent a word by fate.
 
