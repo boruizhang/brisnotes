@@ -5,7 +5,7 @@ date:   2020-04-24 00:15:15 -0500
 categories: jekyll update
 ---
 
-*This is a collection of my random thoughts on TensorFlow at Coursera (last update April 24)*
+_This is a collection of my random thoughts on TensorFlow at Coursera (last update April 24)_
 
 **Too much epochs** can cause overfitting too.
 
@@ -15,7 +15,6 @@ categories: jekyll update
 
 **Callback function** lets the training epoching stop once it reaches the ideal loss.
 
-
 ```python
 class myCallback(tf.keras.callbacks.Callback):
   def on_epoch_end(self, epoch, logs={}):
@@ -24,6 +23,8 @@ class myCallback(tf.keras.callbacks.Callback):
       self.model.stop_training = True
 ```
 
+**Why adam the optimizer?**
+
 My learning source is from [Coursera Intro to TF for AI, ML, and CL].
 
-[Coursera Intro to TF for AI, ML, and CL]: https://www.coursera.org/learn/introduction-tensorflow/home/welcome
+[coursera intro to tf for ai, ml, and cl]: https://www.coursera.org/learn/introduction-tensorflow/home/welcome
