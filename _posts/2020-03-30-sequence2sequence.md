@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sequence to Sequence for language"
+title: "Sequence to Sequence related"
 date:   2020-03-30 00:04:04 -0500
 categories: jekyll update
 ---

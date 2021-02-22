@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "What did TensorFlow say?"
+title:  "TensorFlow Courera class note"
 date:   2020-04-24 00:15:15 -0500
 categories: jekyll update
 ---
 
-_This is a collection of my random thoughts on TensorFlow at Coursera (last update April 24)_
+_This is a collection of my random thoughts on TensorFlow at Coursera (last update April 24 2020)_
 
 **Too much epochs** can cause overfitting too.
 
