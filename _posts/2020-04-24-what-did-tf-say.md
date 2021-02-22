@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TensorFlow Courera class note"
+title:  "TensorFlow Coursera class note"
 date:   2020-04-24 00:15:15 -0500
 categories: jekyll update
 ---
