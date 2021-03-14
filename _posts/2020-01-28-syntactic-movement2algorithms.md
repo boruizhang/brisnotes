@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  The Fantastic Movement - Syntactic Movement
+title: Syntactic movements - the fantastic movement
 date:   2020-01-28 10:10 -0500
 categories: jekyll update
 ---
@@ -148,5 +148,8 @@ Gronenedjik and Stokhof (1984) challenged Karttumen with the example of *know* c
 
 **Gunlogson** the first person looking at declarative raising
 
-My learning source of this post is mainly from [Diti Bhadra's seminar].
-[Diti Bhadra's seminar]: http://www.ditibhadra.com/
+
+
+My learning source of this post is mainly from [Diti Bhadra]'s seminar.
+
+[Diti Bhadra]: http://www.ditibhadra.com/

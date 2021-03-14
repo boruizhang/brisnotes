@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Sequence to Sequence for language?
-date:   2020-03-30 00:04:04 -0500
+title: "Some terms in Sequence2Sequence model"
+date:   2020-04-30 00:04:04 -0500
 categories: jekyll update
 ---
 
@@ -30,6 +30,19 @@ The wisdom of Bleu is that it allows trying out different ideas to find the *bes
 **Attention model** RNN forward network and attention weight are involved. The design is trying to tell for every output word, which part of the other sentence in the language we should pay attention to.  
 
 In the beginning, I questioned what kind of improvement attention modal is making better than Bleu. Then now I realized that this is an invalid question because the Bleu score is dealing with the scoring for output, and attention model attempts to gather more information on the relationship between a translation pair of two languages. Since we know that the Bleu score becomes a little unreliable for longer sentences, we will lose some accuracy feedback for those sentences. Without a valid scoring system, we should try our best to use our own way to make a better translation. An analog of this is more or less like a student and teacher relationship. If the only job a teacher can do is to give a score for student homework and exams to provide a performance evaluation of the student progress, then the student will feel lost if the grades are longer serves an accurate measurement for the learning progress. The attention model is that instead of panic, the student study even harder, and starting improve self-learning skills to be a better learner who doesn't need to rely on a teacher's grade to get a sense of the learning process. Isn't it?
+
+**The gates in LSTM** uses the sigmoid function which tracks long-distanced dependency: Activation Gate at each time step, State Gate.
+
+**clipping** clipping function is built to avoid vanishing (too low) and exploding (too high) gradients, which happen during back propagation.
+
+**Concatenation**
+
+```python
+
+# Concatenate a_prev and xt (≈1 line)
+concat = np.concatenate((a_prev,xt), axis = 0)
+
+```
 
 I learned my knowledge from [Deeplearning.ai] by Andrew Ng.
 

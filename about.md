@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-Hello! I'm Bri, a language lover and self learner of NLP. I occasionally post my learning notes here. The notes/posts are primarily serve my own learning process. If you find any useful as well, I'd be very happy:) [ling nerd](https://boruizhang.github.io/)
+Hello! I'm Bri, a language lover - graduate student. The notes in this site are mainly from my outside-of-class learning. If you want to know more about what I do, please check out [Borui Zhang](https://boruizhang.github.io/) at the University of Minnesota. 

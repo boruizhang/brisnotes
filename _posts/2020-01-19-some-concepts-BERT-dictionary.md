@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BERT dictionary - word embedding"
+title:  "Word embedding and BERT"
 date:   2020-01-19 15:35:08 -0500
 categories: jekyll update
 ---

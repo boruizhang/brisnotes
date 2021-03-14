@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Syntactic tips for constructing trees"
-date:   2020-01-17 17:58:08 -0500
+date:   2020-07-17 17:58:08 -0500
 categories: jekyll update
 ---
 The topic of the day: understanding the python syntax of binary tree datatype and recursives in the code.
