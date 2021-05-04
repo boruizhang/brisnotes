@@ -57,6 +57,20 @@ The tricky part to understand this here is that value of each node seems to be t
 
 A4: `ans.left = self.mergeTrees(t1.left, t2.left)` namely the most beautiful part of the code - a short statement does large work. Be careful when write recursive to construct something, don't forget to add the **self** before the name of the function. Because the *mergeTree* here is designed as a method function under a [python class]. In contrast to a function written outside of a class, it will not need a self.
 
+**try/except** Only put the necessary lines in between this function. Too many lines might lead to some lines never get executed.
+
+
+```python
+
+# try/except
+a = "bri"
+try:
+  a_number = int(a)
+except:
+  a_number = -1
+
+```
+
 My learning source is from [leetcode].
 
 [leetcode]: https://leetcode.com/
